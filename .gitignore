@@ -1,0 +1,54 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+.reports
+.eslintcache
+react-app-env.d.ts
+platform-app.iml
+
+node_modules
+dist
+dist-devops
+!watcher/dist
+watcher/variables.json
+dist-alpha
+dist-eilat
+dist-ssr
+*.local
+.reports
+.eslintcache
+
+# Editor directories and files2
+.vscode
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Output of 'npm pack'
+*.tgz
+
+# local e2e test config
+cypress/config/local.json
+
+# nx graph
+output.json
+
+
+# cypress
+**/cypress/videos
+**/cypress/screenshots
+**/cypress/reports
+**/cypress/downloads
+**/cypress/axe-watcher
+
